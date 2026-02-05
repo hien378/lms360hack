@@ -48,6 +48,7 @@ npx serve
 #
 
 ### Changelog:
+- v6.1: Tối ưu hóa code production
 - v6: Giao diện mới, tốc độ loading nhanh hơn + giao diện mượt hơn nhờ Tailwind CSS, hiển thị câu hỏi dạng grid.
 - v5.3: Đã thêm tính năng preview cho trình duyệt Chromium-based
 - v5.2: Thêm tính năng Preview cho Advanced mode, chỉnh một số vấn đề nhỏ.
