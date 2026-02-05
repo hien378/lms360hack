@@ -3,7 +3,11 @@
 >- ### Xin hãy sử dụng website [lms360hack.pages.dev](https://lms360hack.pages.dev/)
 >- ### Điền URL (đường link) của bài tập LMS360 vào ô *Link LMS360*, sau đó bấm nút *Lấy đáp án*
 #
-# LMS360 Hack - Công cụ xem, chỉnh sửa và tải xuống bài giảng LMS360 
+<h1 align="center">
+  LMS360 Hack <br>
+  Công cụ xem, chỉnh sửa và tải về bài giảng LMS360
+</h1>
+
 <p align="center">
 <img width="90%" alt="image" src="https://github.com/user-attachments/assets/824a944f-3696-4ce9-a9ae-0f0922e6ad94" />
 </p>
