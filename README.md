@@ -5,7 +5,7 @@
 #
 ## LMS360 Hack - Công cụ xem, chỉnh sửa và tải xuống bài giảng LMS360 
 <p align="center">
-<img width="90%" alt="image" src="https://github.com/user-attachments/assets/ea8e3186-7cad-4fad-92b6-d7baf4efb307" />
+<img width="90%" alt="image" src="https://github.com/user-attachments/assets/824a944f-3696-4ce9-a9ae-0f0922e6ad94" />
 </p>
 
 #
@@ -25,10 +25,14 @@ npm run build
 
 #### (Optional) chạy local server:
 ```bash
+cd ./dist
+```
+
+```bash
 npx serve
 ```
 
-#### Hoặc chạy từ file `index.html`
+#### Hoặc chạy từ `./dist/index.html`
 
 #
 
