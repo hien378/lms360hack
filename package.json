@@ -7,7 +7,7 @@
     "clean": "rm -rf dist",
     "dev:css": "tailwindcss -i ./css/input.css -o ./css/style_compiled.css --watch",
     "build:css": "mkdir -p dist/css && tailwindcss -i ./css/input.css -o ./dist/css/style_compiled.css --minify && esbuild css/style.css css/style_dark.css css/h5p-editor.css --minify --outdir=dist/css",
-    "build:js": "esbuild js/*.js --minify --outdir=dist/js --define:a_cf=\"'cf-port'\" --define:b_cf=\"'8192'\"",
+    "build:js": "esbuild js/*.js --minify --outdir=dist/js --define:a_cf=\"'x-port'\" --define:b_cf=\"'8192'\"",
     "build:html": "html-minifier-terser index.html -o dist/index.html --collapse-whitespace --remove-comments --minify-js true --minify-css true && html-minifier-terser advanced.html -o dist/advanced.html --collapse-whitespace --remove-comments --minify-js true --minify-css true",
     "build:assets": "cp -r advanced_libs h5p-preview-lib favicon.ico robots.txt sitemap.xml dist/ 2>/dev/null || true",
     "build": "run-s clean build:css build:js build:html build:assets",
