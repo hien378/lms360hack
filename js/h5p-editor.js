@@ -100,7 +100,7 @@ async function downloadFromUrl() {
     try {
         // Genius way to get the file
         // My backend is very secure :)
-        const response = await fetch(`https://lms360hack-backend.hiennek1.workers.dev?h5p_id=${contentId}`, { signal, headers: { [a_cf]: b_cf } });
+        const response = await fetch(`https://lms360hack-backend.hiennek1.workers.dev?h5p_id=${contentId}`);
 
         if (!response.ok) {
             showAlert(`Không thể tải file: ${response.status} ${response.statusText}`, 'error');

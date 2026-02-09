@@ -82,9 +82,9 @@ function hack_da_answer() {
       return;
     }
 
-    const backendUrl = `https://lms360hack-backend.hiennek1.workers.dev?id=${encodeURIComponent(questionId)}`;
+    const backendUrl = `https://lms360hack-backend.hiennek1.workers.dev/?id=${encodeURIComponent(questionId)}`;
 
-    fetch(backendUrl, { headers: { [a_cf]: b_cf } })
+    fetch(backendUrl)
       .then(res => {
         if (res.status === 429) {
           throw new Error("Từ từ, không sập server!");
